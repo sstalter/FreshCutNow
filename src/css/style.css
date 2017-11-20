@@ -481,7 +481,7 @@ ul.order li span.count span {
   width: 100%;
   border: 0;
 }
-.list-of-fish {
+.list-of-flowers {
   border-top: 2px solid #000;
   border-bottom: 1px solid #000;
   padding-top: 5px;
@@ -489,7 +489,7 @@ ul.order li span.count span {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
 }
-.menu-fish {
+.menu-flower {
   border-bottom: 2px solid #000;
   border-top: 1px solid #000;
   padding-bottom: 2rem;
@@ -498,11 +498,11 @@ ul.order li span.count span {
   clear: both;
   overflow: hidden;
 }
-.menu-fish p {
+.menu-flower p {
   margin: 0;
   font-size: 1.8rem;
 }
-.menu-fish .fish-name {
+.menu-flower .flower-name {
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -514,13 +514,13 @@ ul.order li span.count span {
       -ms-flex-align: center;
           align-items: center;
 }
-.menu-fish .price {
+.menu-flower .price {
   font-size: 1.4rem;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-.menu-fish img {
+.menu-flower img {
   float: left;
   width: 150px;
   margin-right: 1rem;
