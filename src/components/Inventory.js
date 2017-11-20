@@ -10,7 +10,8 @@ class Inventory extends React.Component {
                 {/* Props is used to pass 'things' down.  the state of a component will become the props of a child component */}
                 {/* Props are passed to the child withing the render method of the parent as the second argument to React.CreateElement */}
                 {/*  or JSX */}
-                <AddFlower AddFlower={this.props.AddFlower} />                
+                <AddFlower AddFlower={this.props.AddFlower}  /> 
+                <button onClick={this.props.LoadSamples}>Load flowers</button>
             </div>
 
         )
